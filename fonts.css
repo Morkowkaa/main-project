@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'hero-font';
+  src:  url('fonts/hero-font.eot?tyxu9c');
+  src:  url('fonts/hero-font.eot?tyxu9c#iefix') format('embedded-opentype'),
+    url('fonts/hero-font.ttf?tyxu9c') format('truetype'),
+    url('fonts/hero-font.woff?tyxu9c') format('woff'),
+    url('fonts/hero-font.svg?tyxu9c#hero-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'hero-font' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-right-arrow:before {
+  content: "\e900";
+  color: #999;
+}
+.icon-location:before {
+  content: "\e901";
+  color: #999;
+}
+.icon-phone:before {
+  content: "\e902";
+  color: #999;
+}
+.icon-mail:before {
+  content: "\e903";
+  color: #999;
+}
+.icon-play-button .path1:before {
+  content: "\e904";
+  color: rgb(73, 133, 255);
+}
+.icon-play-button .path2:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-list:before {
+  content: "\e906";
+  color: #4985ff;
+}
+.icon-web-programming:before {
+  content: "\e907";
+  color: #4985ff;
+}

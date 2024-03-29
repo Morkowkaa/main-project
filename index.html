@@ -3,69 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./fonts.css">
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
-    <header class="header">
-        <nav class="header-nav">
-            <ul class="nav-list">
-                <li class="nav-item"><a class="nav-link" href="">Головна</a></li>
-                <li class="nav-item"><a class="nav-link" href="">Наші проекти</a></li>
-                <li class="nav-item"><a class="nav-link" href="">Послуги</a></li>
-                <li class="nav-item"><a class="nav-link" href="">Новини</a></li>
-                <li class="nav-item"><a class="nav-link" href="">Контакти</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header class="it-header">
+    <div class="container">
+      <ul class="it-navigation">
+          <li class="navi-item"><a class="navi-item"href="">Головна</a></li>
+          <li class="navi-item"><a class="navi-item" href="">Наші проекти</a>
+          <li class="navi-item"><a class="navi-item" href="">Послуги</a></li>
+          <li class="navi-item"><a class="navi-item" href="">Новини</a></li>
+          <li class="navi-item"><a class="navi-item" href="">Контакти</a></li>
+          </ul>
+        </div>
+  </header>
   <main>
-        <section class="hero">
+    <section class="hero">
+      <div class="hero-cont">
+          <p class="hero-p">Передова IT студія</p>
+          <h1 class="hero-heading">Ми створюємо легкі рішення важких задач і проблем</h1>
+          <button type="button" class="btn btn-primary btn-lg">Наші проекти</button>
+      </div>
+  </section>
+          <section class="service">
             <div class="container">
-              <p class="hero_text">Передова IT студія</p>
-              <h1 class="hero_heading">
-                Ми створюємо легкі рішення важких задач і проблем
-              </h1>
-              <button class="hero_button">Наші проекти</button>
-            </div>
-          </section>
-          <section class="servise">
-            <div class="container">
-              <h2 class="servise_title">
+              <h2 class="service_title">
                 Ми створюємо мобільні додатки для великих корпорацій
               </h2>
-              <p class="servise_text">
+              <p class="service_text">
                 Lorem Ipsum - це текст-"риба", що часто використовується в пресі та
                 веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на
                 латиниці з початку XVI ст.
               </p>
-              <ul class="servise_list">
-                <li class="servise_item">
-                  <h3 class="servise_heading">Створення сайтів</h3>
-                  <p class="servise_discr">
+              <ul class="service_list">
+                <li class="service_item">
+                  <div class="service_icon"></div>
+                  <div class="service_item_content">
+                  <h3 class="service_heading">Створення сайтів</h3>
+                  <p class="service_discr">
                     Lorem Ipsum - це текст-"риба", часто використовує у пресі та
                     веб-дизайні.
                   </p>
+                </div>
                 </li>
-                <li class="servise_item">
-                  <h3 class="servise_heading">Створення сайтів</h3>
-                  <p class="servise_discr">
+                <li class="service_item">
+                  <div class="service_icon"></div>
+                  <div class="service_item_content">
+                  <h3 class="service_heading">Створення сайтів</h3>
+                  <p class="service_discr">
                     Lorem Ipsum - це текст-"риба", часто використовує у пресі та
                     веб-дизайні.
                   </p>
+                </div>
                 </li>
-                <li class="servise_item">
-                  <h3 class="servise_heading">Створення сайтів</h3>
-                  <p class="servise_discr">
+                <li class="service_item">
+                  <div class="service_icon"></div>
+                  <div class="service_item_content">
+                  <h3 class="service_heading">Створення сайтів</h3>
+                  <p class="service_discr">
                     Lorem Ipsum - це текст-"риба", часто використовує у пресі та
                     веб-дизайні.
                   </p>
+                </div>
                 </li>
               </ul>
-              <button class="servise_button">Всі послуги</button>
+              <button class="service_button">Всі послуги</button>
             </div>
           </section>
           <section>
@@ -79,38 +88,39 @@
             </div>
     
             <div class="projects">
+              
               <ul class="projects-cont">
-                <li><i class="icon-moon icon-web-programming"></i></li>
-                <li class="projects-number">125</li>
+                <li class="projects-number">
+                <i class="icon icon-web-programming"></i>125</li>
                 <li class="projects-after">Our projects</li>
               </ul>
               <ul class="projects-cont">
-                <li><i class="icon-moon icon-web-programming"></i></li>
-                <li class="projects-number">125</li>
+                <li class="projects-number">
+                  <i class="icon icon-web-programming"></i>125</li>
                 <li class="projects-after">Our projects</li>
               </ul>
               <ul class="projects-cont">
-                <li><i class="icon-moon icon-web-programming"></i></li>
-                <li class="projects-number">125</li>
+                <li class="projects-number">
+                  <i class="icon icon-web-programming"></i>125</li>
                 <li class="projects-after">Our projects</li>
               </ul>
               <ul class="projects-cont">
-                <li><i class="icon-moon icon-web-programming"></i></li>
-                <li class="projects-number">125</li>
+                <li class="projects-number">
+                  <i class="icon icon-web-programming"></i>125</li>
                 <li class="projects-after">Our projects</li>
               </ul>
               <ul class="projects-cont">
-                <li><i class="icon-moon icon-web-programming"></i></li>
-                <li class="projects-number">125</li>
+                <li class="projects-number">
+                  <i class="icon icon-web-programming"></i>125</li>
                 <li class="projects-after">Our projects</li>
               </ul>
             </div>
          </section>
     
-         <section>
+         <section class="working">
             <div class="work-text">
               
-              <h2 class="work-heading">Наші роботи на яких ми спеціалізуємось</h2>
+              <h2 class="work-headingg">Наші роботи на яких ми спеціалізуємось</h2>
               <button type="button" class="work-button">Всі послуги</button>
             </div>
     
@@ -154,122 +164,120 @@
          </section>
     
          <section class="video">
-          <div class="video-container container">
-            <h1 class="video-heading">Відео про нашу роботу</h1>
+          <div class="container video-container">
+            <h2 class="video-heading">Відео про нашу роботу</h2>
             <p class="video-text">Просто подивіться, як ми працюємо</p>
-          </div>
-    
-          <div class="player-cont">
-           <button class="video-button"><i class="icon-moon icon-play-button"></i>Дивитись відео</button>
-          </div>
-         </section>
-    
-         <section>
-            <div class="sub">
-                <h3 class="sub-heading">Підпишіться на нашу розсилку</h3>
-                <p class="sub-p">Корисні статті, акції, новини - отримайте все це зараз!</p>
-                <div class="input-cont">
-                    <div class="input-group">
-                        <input type="text" class="form-control sub-form" aria-label="Text input with segmented dropdown button">
-                        <button type="button" class="btn btn-outline-secondary subscribe">Підписатися</button>
-                      </div>
-                </div>
-                <p class="not-spam">Ми не шлем спам, і не передаємо нікому ваші дані</p>
+            <div class="video-button-container">
+                <button class="video-button"><span class="video-button-text"> Дивитись відео</span></button>
             </div>
-         </section>
+          </div>
+        </section>
+    
+        <section class="section-seven">
+          <div class="div-seven">
+            <h2 class="h2-seven">Підпишіться на нашу розсилку</h2>
+            <p class="p-seven">
+              Корисні статті, акції, новини - отримайте все це зараз!
+            </p>
+            <div class="inp-button">
+              <input class="inp-seven" type="text" placeholder="Ваш e-mail" />
+              <button class="button-seven">Підписатися</button>
+            </div>
+            <p class="pp-seven">Ми не шлем спам, і не передаємо нікому ваші дані</p>
         </main>
     
-            <footer class="bg-body-tertiary text-center text-lg-start">
-                <!-- Grid container -->
-                <div class="container p-4">
-                  <!--Grid row-->
-                  <div class="row">
-                    <!--Grid column-->
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                      <h5 class="text-uppercase">Контактная информация</h5>
-              
-                      <ul class="list-unstyled mb-0">
-                        <li>
-                          <a href="#!" class="text-body"><i class="icon-moon icon-envelope"></i>test@test.ru</a>
-                        </li>
-                        <li>
-                          <a href="#!" class="text-body"><i class="icon-moon icon-call"></i>+3 8096 555 66 99</a>
-                        </li>
-                        <li>
-                          <a href="#!" class="text-body"><i class="icon-moon icon-placeholder"></i>Тернопіль вул С. Бандери</a>
-                        </li>
-                        
-                      </ul>
-                    </div>
-                    <!--Grid column-->
-              
-                    <!--Grid column-->
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                      <h5 class="text-uppercase mb-0">Основні посилання</h5>
-              
-                      <ul class="list-unstyled">
-                        <li>
-                          <a href="#!" class="text-body"><i class="icon-moon icon-right-arrow"></i>Головна</a>
-                        </li>
-                        <li>
-                          <a href="#!" class="text-body"><i class="icon-moon icon-right-arrow"></i>Наші проекти</a>
-                        </li>
-                        <li>
-                          <a href="#!" class="text-body"><i class="icon-moon icon-right-arrow"></i>Наші послуги</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="text-body"><i class="icon-moon icon-right-arrow"></i>Контакти</a>
-                          </li>
-                      </ul>
-                    </div>
-                    <!--Grid column-->
-              
-                    <!--Grid column-->
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                      <h5 class="text-uppercase">Наші проекти</h5>
-              
-                      <ul class="list-unstyled mb-0">
-                        <li>
-                          <a href="#!" class="text-body"><i class="icon-moon icon-right-arrow"></i>Укрпошта</a>
-                        </li>
-                        <li>
-                          <a href="#!" class="text-body"><i class="icon-moon icon-right-arrow"></i>Нафтогаз</a>
-                        </li>
-                        <li>
-                          <a href="#!" class="text-body"><i class="icon-moon icon-right-arrow"></i>Львівська пивоварня</a>
-                        </li>
-                        <li>
-                          <a href="#!" class="text-body"><i class="icon-moon icon-right-arrow"></i>ТЭЦ Калуша</a>
-                        </li>
-                      </ul>
-                    </div>
-                    <!--Grid column-->
-              
-                    <!--Grid column-->
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                      <h5 class="text-uppercase mb-0">Соціальні мережі</h5>
-              
-                      <ul class="list-unstyled">
-                        <li>
-                          <a href="#!" class="text-body"><i class="icon-moon icon-right-arrow"></i>LinkedIn</a>
-                        </li>
-                        <li>
-                          <a href="#!" class="text-body"><i class="icon-moon icon-right-arrow"></i>Instagram</a>
-                        </li>
-                        <li>
-                          <a href="#!" class="text-body"><i class="icon-moon icon-right-arrow"></i>Facebook</a>
-                        </li>
-                        <li>
-                          <a href="#!" class="text-body"><i class="icon-moon icon-right-arrow"></i>Twitter</a>
-                        </li>
-                      </ul>
-                    </div>
-                    <!--Grid column-->
-                  </div>
-                  <!--Grid row-->
-                </div>
-                <!-- Grid container -->
-              </footer>
+        <footer class="bg-body-tertiary text-center text-lg-start">
+          <!-- Grid container -->
+          <div class="container p-4 footer-cont">
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Контактная информация</h5>
+        
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-body"><i class="icon  icon-envelope"></i>test@test.ru</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-body"><i class="icon  icon-call"></i>+3 8096 555 66 99</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-body"><i class="icon icon-placeholder"></i>Тернопіль вул С. Бандери</a>
+                  </li>
+                  
+                </ul>
+              </div>
+              <!--Grid column-->
+        
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-0">Основні посилання</h5>
+        
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!" class="text-body"><i class="icon  icon-right-arrow"></i>Головна</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-body"><i class="icon  icon-right-arrow"></i>Наші проекти</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-body"><i class="icon  icon-right-arrow"></i>Наші послуги</a>
+                  </li>
+                  <li>
+                      <a href="#!" class="text-body"><i class="icon  icon-right-arrow"></i>Контакти</a>
+                    </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+        
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Наші проекти</h5>
+        
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-body mb-2"><i class="icon icon-right-arrow"></i>Укрпошта</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-body"><i class="icon icon-right-arrow"></i>Нафтогаз</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-body"><i class="icon icon-right-arrow"></i>Львівська пивоварня</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-body"><i class="icon icon-right-arrow"></i>ТЭЦ Калуша</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+        
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-0">Соціальні мережі</h5>
+        
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!" class="text-body"><i class="icon icon-right-arrow"></i>LinkedIn</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-body"><i class="icon icon-right-arrow"></i>Instagram</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-body"><i class="icon icon-right-arrow"></i>Facebook</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-body"><i class="icon icon-right-arrow"></i>Twitter</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </div>
+          <!-- Grid container -->
+          
+        </footer>
     
               <div>
                 <p class="copyrights">(с) 2019. Всі права захищені</p>
